@@ -1,6 +1,10 @@
 # 30DaysOfCode
 ### Hack Rank - 30 Days Of Code
 
+- [x] Done
+- [ ] Incomplete
+____________________________
+
 - [x] Day 0: Hello, World
 - [x] Day 1: Data Types
 - [x] Day 2: Operators
