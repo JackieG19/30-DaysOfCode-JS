@@ -2,11 +2,13 @@
 
 Task: Given an integer,n, print its first 10 multiples. 
 Each multiple n x i (where 1 < i < 10) should be printed 
-on a new line in the form: n x i = result.
+on a new line in the form.
 
-Input Format: A single integer, n.
+n x i = result.
+
+Input: A single integer, n.
 Constraints: 2 < n < 20
-Output Format: each line i contains the of n x i in the form: n x i = result.*/
+Output: each line i contains the of n x i in the form: n x i = result.*/
 
 process.stdin.resume();
 process.stdin.setEncoding('ascii');
