@@ -1,26 +1,8 @@
-// Intro to Conditional Statements
+/*Input Format:
+A single line containing a positive integer, n.
 
-process.stdin.resume();
-process.stdin.setEncoding('ascii');
-
-var input_stdin = "";
-var input_stdin_array = "";
-var input_currentline = 0;
-
-process.stdin.on('data', function (data) {
-    input_stdin += data;
-});
-
-process.stdin.on('end', function () {
-    input_stdin_array = input_stdin.split("\n");
-    main();    
-});
-
-function readLine() {
-    return input_stdin_array[input_currentline++];
-}
-
-/////////////// ignore above this line ////////////////////
+Output Format
+Print Weird if the number is weird; otherwise, print Not Weird*/
 
 function main() {
     var N = parseInt(readLine());
